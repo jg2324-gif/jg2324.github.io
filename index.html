@@ -25,7 +25,8 @@
             border-radius: 50%;
             object-fit: cover;
             border: 4px solid #fff;
-            margin-bottom: 1rem;
+            margin: 0 auto 1rem auto;
+            display: block;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
         main {
@@ -60,7 +61,15 @@
             font-weight: bold;
         }
         .project-item {
-            margin-bottom: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+        .project-item h3 {
+            margin-bottom: 0.3rem;
+            color: #2c3e50;
+        }
+        .project-item ul {
+            margin: 0.5rem 0 0.8rem 1.2rem;
+            padding: 0;
         }
         a {
             color: #0056b3;
@@ -80,10 +89,10 @@
 <body>
 
     <header>
-        <!-- Headshot Requirement -->
+        <!-- Headshot Requirement (Centered) -->
         <img src="Gonzalez, Joel (2) (1).JPG" alt="Joel Gonzalez Headshot" class="profile-img">
         <h1>Joel Gonzalez</h1>
-        <!-- Personal Statement Requirement (One-sentence intro based on your accounting background) -->
+        <!-- Personal Statement Requirement -->
         <p>I am an accounting student at Rutgers Business School pursuing a Bachelor of Science in Accounting with a strong focus on auditing, taxation, and financial compliance.</p>
     </header>
 
@@ -100,26 +109,40 @@
             </ul>
         </section>
 
-        <!-- Projects / Experience Section Requirement (2-3 items) -->
+        <!-- Projects / Experience Section Requirement -->
         <section>
             <h2>Experience & Leadership</h2>
             
             <div class="project-item">
-                <h3>Synchrony Bank - Internal Auditor</h3>
-                <p>Handled auditing cycles, ensured compliance, and supported internal audit operations to improve team efficiency in a fast-paced setting.</p>
-                <a href="https://www.synchrony.com" target="_blank">View Organization</a>
+                <h3>Synchrony Bank – Internal Auditor</h3>
+                <p><em>August 2025 – May 2027 | Stamford, CT</em></p>
+                <ul>
+                    <li>Handled comprehensive internal auditing cycles and evaluated processes to ensure strict regulatory and corporate compliance.</li>
+                    <li>Supported overall internal audit operations, directly contributing to enhanced team efficiency in a high-volume financial corporate setting.</li>
+                    <li>Developed advanced professional communication and analytical problem-solving skills through daily financial review tasks.</li>
+                </ul>
+                <a href="https://www.synchrony.com" target="_blank">View Organization Website</a>
             </div>
 
             <div class="project-item">
-                <h3>VITA Tax Preparer Volunteer</h3>
-                <p>Completed IRS tax certification training and prepared accurate federal and state tax returns for low-income clients.</p>
-                <a href="https://www.irs.gov/individuals/free-tax-prep-volunteer" target="_blank">Learn More</a>
+                <h3>VITA Tax Preparer – Volunteer Income Tax Assistance</h3>
+                <p><em>October 2024 – February 2025 | University Park, PA</em></p>
+                <ul>
+                    <li>Successfully completed rigorous IRS tax certification training and passed the official examination.</li>
+                    <li>Prepared accurate federal and state tax returns for low-income clients, ensuring total adherence to compliance standards.</li>
+                    <li>Collaborated dynamically with a team of fellow volunteers to streamline workflow operations and improve client service delivery.</li>
+                </ul>
+                <a href="https://www.irs.gov/individuals/free-tax-prep-volunteer" target="_blank">Learn More About VITA</a>
             </div>
 
             <div class="project-item">
                 <h3>Rutgers University Accounting Association</h3>
-                <p>Attended weekly professional development sessions with Big Four and regional firm speakers to build industry knowledge and network with recruiters.</p>
-                <a href="https://www.rutgers.edu" target="_blank">Learn More</a>
+                <p><em>August 2025 – Present | New Brunswick, NJ</em></p>
+                <ul>
+                    <li>Attend weekly professional development sessions featuring guest speakers from Big Four and prominent regional accounting firms.</li>
+                    <li>Engage proactively with industry peers and corporate recruiters to deepen technical industry knowledge and enhance career readiness.</li>
+                </ul>
+                <a href="https://www.rutgers.edu" target="_blank">Explore Rutgers University</a>
             </div>
         </section>
     </main>
